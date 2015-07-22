@@ -8,6 +8,7 @@ void setup()
 
 void loop() 
 {
+	delay(2000);
 	int sensorValue = digitalRead(PIR_MOTION_SENSOR);
 
 	if(sensorValue==HIGH)//if it detects moving people
